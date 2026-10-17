@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#box {
+    height: 100px;
+    width: 100px;
+    background: rgb(30, 200, 200);
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+
+
+}
